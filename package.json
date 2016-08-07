@@ -1,0 +1,36 @@
+{
+  "name": "SASSnPUG2GO",
+  "version": "1.0.0",
+  "description": "A template to get your SPA going quickly.",
+  "main": "app.js",
+  "author": {
+    "name": "Jordan McArdle",
+    "email": "jordanmcardle@gmail.com",
+    "url": "http://www.jordanmcardle.me"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmahc/sassnpug2go.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-alpha1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "nodemon": "^1.10.0"
+  }
+}
